@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0px auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.br {
+  display: none;
+}
+
+.photo {
+  display: block;
+}
+
+header {
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+
+header p {
+  text-align: center;
+  background-color: red;
+  font-weight: bold;
+  font-size: 3em;
+  line-height: 1.2em;
+  width: 1000px;
+  animation: blinkAnime 0.5s infinite alternate;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@keyframes blinkAnime {
+  0% {color: #000000}
+  75% {color: #ffff00}
+  100% {color: #ffff00}
+}
+
+.line_magazine {
+  background-color: #96c7e6;
+  text-align: center;
+  padding: 30px;
+}
+
+.line_magazine a {
+  color: white;
+  -webkit-text-stroke: 1.5px black;
+  font-size: 45px;
+  font-weight: bold;
+  background-color: yellow;
+  display: inline-block;
+  padding: 10px 70px;
+  border-radius: 30px;
+  filter: drop-shadow(8px 8px 8px rgba(0, 0, 0, 0.6));
+}
+
+.heading {
+  font-weight: bold;
+  font-size: 35px;
+  margin: 30px;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+}
